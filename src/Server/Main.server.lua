@@ -62,6 +62,7 @@ require(script.Parent.CombatManager)
 require(script.Parent.TradeManager)
 require(script.Parent.SnapManager)
 require(script.Parent.GamepassManager)
+require(script.Parent.ShopManager)
 require(script.Parent.AdminManager)
 
 print("[Server] Alle Manager geladen. Spiel laeuft!")
