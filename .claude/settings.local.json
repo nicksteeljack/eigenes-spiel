@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(gh --version 2>&1)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "PowerShell(gh --version 2>&1; \\(Get-Command gh -ErrorAction SilentlyContinue\\).Source)"
+    ]
+  }
+}
